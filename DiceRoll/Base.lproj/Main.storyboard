@@ -23,6 +23,7 @@
                                 <state key="normal" title="Roll the Dice!"/>
                                 <connections>
                                     <action selector="rollTheDice" destination="BYZ-38-t0r" eventType="touchUpInside" id="1X5-1C-02y"/>
+                                    <segue destination="Wk1-bs-NsL" kind="presentation" identifier="RollDice" id="q5S-f1-JYR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -33,9 +34,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <segue destination="Wk1-bs-NsL" kind="presentation" identifier="RollDice" id="IH5-2J-gSG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -37,7 +37,6 @@ class RollViewController: UIViewController {
     
     @IBAction func rollTheDice() {
         
-        performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
         
     }
 
