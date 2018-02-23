@@ -41,7 +41,7 @@
         <!--Dice View Controller-->
         <scene sceneID="e2f-Rd-bfg">
             <objects>
-                <viewController storyboardIdentifier="DiceViewController" id="Wk1-bs-NsL" userLabel="Dice View Controller" customClass="DiceViewController" customModule="DiceRoll" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DiceViewController" id="Wk1-bs-NsL" userLabel="Dice View Controller" customClass="DiceViewController" customModule="DiceRoll" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sov-Sy-FC3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +65,7 @@
                                     <color key="titleShadowColor" red="0.82284245469999995" green="0.82284245469999995" blue="0.82284245469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="dismiss:" destination="Wk1-bs-NsL" eventType="touchUpInside" id="oe3-0c-emD"/>
+                                    <action selector="dismiss" destination="Wk1-bs-NsL" eventType="touchUpInside" id="MXL-Yq-pNp"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -23,15 +23,6 @@ class DiceViewController: UIViewController {
     
     // MARK: Life Cycle
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     override func viewWillAppear(_ animated: Bool) {
         
@@ -69,7 +60,7 @@ class DiceViewController: UIViewController {
     /**
      *    dismiss this view controller
      */
-    func dismiss() {
+    @IBAction func dismiss() {
         self.dismiss(animated: true, completion: nil)
     }
     
