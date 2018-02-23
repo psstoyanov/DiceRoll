@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		27DD167F2040527200E9AF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD167E2040527200E9AF44 /* AppDelegate.swift */; };
-		27DD16812040527200E9AF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD16802040527200E9AF44 /* ViewController.swift */; };
+		27DD16812040527200E9AF44 /* RollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD16802040527200E9AF44 /* RollViewController.swift */; };
 		27DD16842040527200E9AF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DD16822040527200E9AF44 /* Main.storyboard */; };
 		27DD16862040527200E9AF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DD16852040527200E9AF44 /* Assets.xcassets */; };
 		27DD16892040527200E9AF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DD16872040527200E9AF44 /* LaunchScreen.storyboard */; };
 		27DD16942040527200E9AF44 /* DiceRollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD16932040527200E9AF44 /* DiceRollTests.swift */; };
 		27DD169F2040527200E9AF44 /* DiceRollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD169E2040527200E9AF44 /* DiceRollUITests.swift */; };
+		27DD16AD2040540000E9AF44 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD16AC2040540000E9AF44 /* DiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		27DD167B2040527200E9AF44 /* DiceRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DD167E2040527200E9AF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27DD16802040527200E9AF44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27DD16802040527200E9AF44 /* RollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollViewController.swift; sourceTree = "<group>"; };
 		27DD16832040527200E9AF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27DD16852040527200E9AF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27DD16882040527200E9AF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		27DD169A2040527200E9AF44 /* DiceRollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DD169E2040527200E9AF44 /* DiceRollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollUITests.swift; sourceTree = "<group>"; };
 		27DD16A02040527200E9AF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27DD16AC2040540000E9AF44 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				27DD167E2040527200E9AF44 /* AppDelegate.swift */,
-				27DD16802040527200E9AF44 /* ViewController.swift */,
+				27DD16802040527200E9AF44 /* RollViewController.swift */,
 				27DD16822040527200E9AF44 /* Main.storyboard */,
 				27DD16852040527200E9AF44 /* Assets.xcassets */,
 				27DD16872040527200E9AF44 /* LaunchScreen.storyboard */,
 				27DD168A2040527200E9AF44 /* Info.plist */,
+				27DD16AC2040540000E9AF44 /* DiceViewController.swift */,
 			);
 			path = DiceRoll;
 			sourceTree = "<group>";
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27DD16812040527200E9AF44 /* ViewController.swift in Sources */,
+				27DD16812040527200E9AF44 /* RollViewController.swift in Sources */,
+				27DD16AD2040540000E9AF44 /* DiceViewController.swift in Sources */,
 				27DD167F2040527200E9AF44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
